@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const speedInput = document.getElementById("speed");
   const setSpeed = document.getElementById("btn");
 
-  setSpeed.addEventListener("input", setPlaybackSpeed);
+  setSpeed.addEventListener("click", setPlaybackSpeed);
 
   speedInput.addEventListener("keypress", function (e) {
     if (e.key === "Enter") {
